@@ -1,37 +1,33 @@
-## Welcome to GitHub Pages
+Learning Design Representation: Deep Learning and Beyond
+======================
+This the workshop website for the Design Computing and Cognition 2018 workshop on Deep Learning. For questions regarding the workshop, please email the workshop chair: [Dr. Mark Fuge](www.enme.umd.edu/faculty/fuge) (fuge at umd edu)
 
-You can use the [editor on GitHub](https://github.com/IDEALLab/dcc-deep-learning-workshop/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+# Submission Information
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Participants do not need to submit anything to *attend* the workshop. 
+However, if a participant wishes *to be selected as a presenter* during one of the lighting/position talks during each of the three parts, then they should submit a 1-3 page position paper or extended abstract that covers any or all of the three parts of the workshop (see Workshop Format for more details). For example, some questions that position papers might answer are (though this list is not meant to be exclusive, so additional topics are encouraged): 
 
-### Markdown
+- Part 1: What are some example design problems where learning non-linear predictive models (in the supervised, unsupervised, or reinforcement learning sense) has been critical to your past success or improving scientific understanding of Design? Or alternatively, what are some open design problems where we do not yet have good predictive models where you expect deep learning might help? How should we (as a field) measure scientific progress or success towards those goals? (That is, how will we know when any deep learning models become sufficiently useful to industrial practice?) 
+- Part 2: What kinds of mathematical or algorithmic approaches are currently not sufficiently well developed enough from other fields to transfer well to design? For what classes of design problems are existing model invariances or constraints ill-suited? What new classes of modeling structure would we need to develop to correct or mitigate those problems? 
+- Part 3: What new kinds of data sets (either real-world or synthetically generated) are necessary to enable advances in design not currently possible using existing datasets (e.g., ShapeNet, etc.)? What are possible legal, ethical, privacy, or research culture issues that we would need to overcome to store and share such datasets? What are concrete steps the field can take to move towards those goals? 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The position paper (PDF version) should be submitted to the workshop chair at the email provided above by the above deadline. Participants selected to present during the workshop will be notified by the acceptance date listed above. If there are significantly more high-quality position papers than can be accommodated by the workshop talks, we will provide a opportunities to display a poster near the workshop and distribute the associated paper/poster via the workshop website. Regardless of submission or acceptance, any and all participants are welcome to register for and attend the workshop.
 
-```markdown
-Syntax highlighted code block
+# Workshop Format
 
-# Header 1
-## Header 2
-### Header 3
+The workshop time will be split into three main parts, with short breaks between each part:
 
-- Bulleted
-- List
+- Part 1: We will discuss and enumerate different kinds of design problems where different types of deep learning (e.g., Supervised, Unsupervised, Semi-Supervised, and Reinforcement Learning) might provide significant societal or scientific value over existing data-driven or traditional methods. For example, modeling individual (or teams of) designers, artifact geometry/structure, design processes, end-user feedback/iteration, manufacturing, use-data/prognostics/diagnostics, among other areas. That is, we will identify key areas in Design where, assuming we could successfully train deep models, those models might lead to significant advances over the state-of-the-art. We will also discuss how to measure the success of such models in practical and industrially relevant terms. We will summarize these as a set of public **challenge problems** for the field, against which we might measure progress.
+- Part 2: We will then discuss different mathematical and algorithmic challenges that exist in using or deploying deep learning models for practical design applications. While significant progress has been made in applying deep learning to tasks like Computer Vision, Speech, and Robotics, these successes have come about because of mathematical or algorithmic constraints or invariances that researchers place on those models that improve performance for a given domain—for example, the use of 2D convolutions to impose translation invariance, spherical projections to encode 3D surfaces, or Compositional Convolutions for learning graph features (e.g., in molecular chemisty). Are these existing constraints and invariances sufficient for modeling the breadth of applications we face in design? What other kinds of invariances or mathematical structures could be useful for capturing key properties of design that existing deep learning models do not consider? What are open inference or algorithmic questions we need to resolve with respect to design applications that other fields are unlikely to address or encounter on their own? We will enumerate, discuss, and summarize different existing and new structures/algorithms that might be useful pillars upon which to build deep learning models for different aspects/goals of design. We will generate **a map between different design problems** (identified in Part 1) **and different structures/algorithms** that might encode or prescribe novel deep models that could significantly surpass existing state-of-the-art.
+- Part 3: For Deep Learning models to work well, they either need 1) large amounts of training data (or applicable data-augmentation strategies for converting small amounts of data into robustly perturbed larger datasets); or 2) well-chosen constraints, regularization, and embedded invariances that constrain the model's hypothesis space. This part will address the former problem: where to find (or how to generate synthetically) the data necessary to train practically useful deep learning models. Here our discussion will center around two main methods currently used in other fields to tackle this problem. First, we will discuss procuring real-world data—for example, where and how to collect appropriate and high-quality data for the tasks identified in parts 1 and 2, how to deal with IP, ethics, or privacy issues, how to store/share it in ways that would benefit the research and industrial communities, or how to leverage crowd-sourcing, Active Learning, or Curriculum Learning to reduce data-collection efforts. Second, we will discuss generating synthetic data necessary to bootstrap useful deep learning models that can later be transferred to the real world (e.g., using domain adapation or transfer learning, etc.). For example, much of the recent successes in robotics has centered around the use of physical simulators to train complex, deep-learning-based controllers; what would appropriate "design simulators" look like that could achieve similar advances and how could we verify the accuracy and generalizability of such simulators? We will **enumerate a list** of datasets and methods for bootstrapping deep learning methods for different design applications and **highlight missing scientific areas or data-gathering efforts** that, if successful, could have outsized impact on the use of deep learning methods for design.
 
-1. Numbered
-2. List
+Each part will consist of a mixture of 1) short position/lighting talks by selected participants to ground discussion in concrete examples, 2) working sub-group sessions with targeted discussion topics and activities to advance the workshop goals, and 3) all-hands discussion and collaboration on the draft outcomes. After the workshop, all participants will receive a digital, human/machine-editable version of the workshop outcomes which will also be hosted/editable via the workshop website. These outcomes include: 1) the list of challenge problems/progress benchmarks, 2) the design-problem to mathematical-structure/algorithm map, and 3) a list of datasets, strategies, or existing tools/libraries for collecting requisite data (either from the real world or from simulation) or new datasets that, if funded and created, would produce significant value for the industrial and research communities.
 
-**Bold** and _Italic_ and `Code` text
+# Schedule
 
-[Link](url) and ![Image](src)
-```
+Date/Time: 1 July 2:00pm-5:30pm
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Specific timing schedule to be announced after submissions selected.
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/IDEALLab/dcc-deep-learning-workshop/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+# Outcomes
+To be uploaded/linked to here after the workshop
