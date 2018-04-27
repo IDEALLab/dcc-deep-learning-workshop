@@ -1,6 +1,6 @@
 Learning Design Representation: Deep Learning and Beyond
 ======================
-This the workshop website for the Design Computing and Cognition 2018 workshop on Deep Learning. For questions regarding the workshop, please email the workshop chair: [Dr. Mark Fuge](www.enme.umd.edu/faculty/fuge) (fuge at umd edu)
+This the workshop website for the [Design Computing and Cognition 2018](http://dccconferences.org/dcc18/index.html) workshop focusing on [Deep Learning](http://dccconferences.org/dcc18/workshops-deep-learning.html). For questions regarding the workshop, please email the workshop chair: [Dr. Mark Fuge](www.enme.umd.edu/faculty/fuge) (fuge at umd edu). For the workshop information listed on the DCC workshop website, see [this link](http://dccconferences.org/dcc18/workshops-deep-learning.html).
 
 # Submission Information
 
